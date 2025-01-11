@@ -1,0 +1,126 @@
+{
+  "mrn": {
+    "prefixes": [
+      "MRN",
+      "MEDICAL RECORD",
+      "PATIENT"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "patient_dob": {
+    "prefixes": [
+      "PATIENT DOB",
+      "DOB",
+      "DATE OF BIRTH"
+    ],
+    "suffixes": []
+  },
+  "patient_name": {
+    "prefixes": [
+      "PATIENT",
+      "NAME"
+    ],
+    "suffixes": [
+      "NAME"
+    ]
+  },
+  "patient_address": {
+    "prefixes": [
+      "PRIMARY",
+      "MAILING",
+      "PATIENT"
+    ],
+    "suffixes": [
+      "ADDRESS"
+    ]
+  },
+  "patient_gender": {
+    "prefixes": [
+      "PATIENT_GENDER",
+      "GENDER",
+      "SEX"
+    ],
+    "suffixes": []
+  },
+  "patient_phone": {
+    "prefixes": [
+      "TELEPHONE",
+      "HOME",
+      "MOBILE",
+      "PHONE"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "insurance_provider": {
+    "prefixes": [
+      "PRIMARY INSURANCE",
+      "PRIMARY",
+      "PATIENT INSURANCE",
+      "INSURANCE"
+    ],
+    "suffixes": [
+      "PAYER",
+      "COMPANY",
+      "PROVIDER"
+    ]
+  },
+  "member_name": {
+    "prefixes": [
+      "MEMBER",
+      "POLICY"
+    ],
+    "suffixes": [
+      "NAME",
+      "HOLDER"
+    ]
+  },
+  "social_security": {
+    "prefixes": [
+      "SOCIAL SECURITY",
+      "SSN"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "policy_number": {
+    "prefixes": [
+      "SUB ID",
+      "SUBSCRIBER",
+      "POLICY"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO",
+      "ID"
+    ]
+  },
+  "group_number": {
+    "prefixes": [
+      "GROUP"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "relation": {
+    "prefixes": [
+      "RELATION",
+      "RELATIONSHIP"
+    ],
+    "suffixes": []
+  }
+}

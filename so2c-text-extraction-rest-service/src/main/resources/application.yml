@@ -1,0 +1,47 @@
+server:
+  port: 8082
+
+textract:
+  extraction:
+    #Relates to the minimum confidence score for few key fields
+    threshold: 50
+    #Relates to the threshold LD algorithm uses to do matching
+    trf-identifiers-ld-threshold: 2
+    #Minimum blocks TRF needs to have
+    trf-min-block-size: 500
+
+cloud:
+  aws:
+    sqs:
+      inbound:
+        batch-size: 3
+        visibility-timeout: 120
+    region:
+      static: us-west-2
+      auto: false
+    stack:
+      auto: false
+
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.amazonaws.util.EC2MetadataUtils: ERROR
+    com.amazonaws.util.InstanceMetadataServiceResourceFetcher: ERROR
+    com.gh.extractor: INFO
+
+# Swagger
+swagger:
+  service:
+    version: "1.0"
+    title: S02C Text Extraction REST Service
+    description: "A service that provides sync and async APIs for performing OCR operations"
+    termsPath: ""
+    email: "noreply@guardanthealth.com"
+    licenceType: ""
+    licencePath: ""
+
+spring:
+  datasource:
+    url: jdbc-secretsmanager:postgresql://so2c-gh-screening-tes-cluster-dev.cluster-cnrcmir0prga.us-west-2.rds.amazonaws.com/tesdb
+    username: gh_tesdb_rds_credentials-dev
+    driver-class-name: com.amazonaws.secretsmanager.sql.AWSSecretsManagerPostgreSQLDriver

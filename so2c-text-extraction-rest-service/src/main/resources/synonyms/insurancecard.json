@@ -1,0 +1,72 @@
+{
+  "member_id": {
+    "prefixes": [
+      "POLICY",
+      "MEMBER",
+      "CONTRACT"
+    ],
+    "suffixes": [
+      "ID",
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "member_name": {
+    "prefixes": [
+      "INSURED",
+      "FULL",
+      "MEMBER"
+    ],
+    "suffixes": [
+      "NAME"
+    ]
+  },
+  "insurance_provider": {
+    "prefixes": [
+      "INSURANCE"
+    ],
+    "suffixes": [
+      "PROVIDER",
+      "COMPANY"
+    ]
+  },
+  "plan_number": {
+    "prefixes": [
+      "PLAN"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "group_number": {
+    "prefixes": [
+      "GROUP"
+    ],
+    "suffixes": [
+      "#",
+      "NUMBER",
+      "NO"
+    ]
+  },
+  "provider_name": {
+    "prefixes": [
+    "PROVIDER",
+    "PCP"
+    ],
+    "suffixes": [
+      "NAME"
+    ]
+  },
+  "effective_date": {
+    "prefixes": [
+    "MEMBER EFFECTIVE",
+    "EFFECTIVE"
+    ],
+    "suffixes": [
+      "DATE"
+    ]
+  }
+}
